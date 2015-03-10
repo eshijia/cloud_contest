@@ -1,0 +1,16 @@
+因输出结果较大，故我们将结果上传到了百度网盘中，下载地址如下：
+http://pan.baidu.com/s/1eQ7u4lc
+
+
+说明：
+result_10w_t*
+程序的输出结果，即预测每一个训练集用户对每一个在训练集中出现的其没看过的电影的评分。
+
+r*.test
+十折交叉所拆分出的测试集合。
+
+r*.result
+十折交叉中的每一份结果的RMSE和MAE值。
+
+PersonalRMSEandMAE.py
+Python脚本，对每一份结果和测试集生成RMSE和MAE的值。
